@@ -9,6 +9,9 @@ Note! if n or m < 0 return 0! Waiting for translations and Feedback! Thanks!
 
 */
 
-function paperwork(n, m) {
-  
+const paperwork = (n, m) => {
+  if(n < 0 || m < 0) {
+    return 0;
+  }
+  return n*m;
 }
